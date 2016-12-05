@@ -126,7 +126,7 @@ a{
 	width:100%;
 	height:2.55rem;
 	float:left;
-	padding-top: 1.42rem;
+	/*padding-top: 1.42rem;*/
 }
 .aa{
 	width:100%;
@@ -135,7 +135,7 @@ a{
 	position: absolute;
 	left:0;right:0;
 	margin:auto;
-	
+}	
 .aa{
 	margin-top: 3.9rem;
 	height:11.72rem;
@@ -144,3 +144,88 @@ a{
 .bb{
 	padding-top: 0.1rem;
 }	
+
+
+
+
+
+
+
+
+
+
+
+
+.top{
+	width:100%;
+	height: 0.5rem;
+	position:fixed;top:0;
+}
+.top img{
+	width:100%;height: 100%;
+	position:absolute;
+	top:0rem;
+}
+.top1{
+	width:100%;
+	height:0.92rem;
+	background: #FAFAFA;
+	border-bottom: 0.01rem solid #D2D2D2;
+	margin-top: 0.5rem;
+}
+.xqt{
+	padding-left: 0.32rem;
+	padding-right: 0.32rem;
+	padding-top: 0.25rem;	
+	font-size: 0.48rem;
+}
+.ly{
+	width: 100%;
+	padding-top: 0.58rem;
+}
+.lyl{
+	float:left;
+}
+.bt{
+	margin-left:1rem ;
+	margin-top: -0.9rem;
+}
+.ly span{
+	font-size: 0.34rem;
+}
+.bt .time{
+	padding-bottom:0.30rem;
+	font-size: 0.2rem;
+	color:#CCC;
+}
+.lyr{
+	float: right;
+	width: 1.52rem;
+	height: 0.6rem;
+	background: #2A90D7;
+	border-radius:0.1rem;
+	padding-right: 0.32rem;
+	font-size: 0.24rem;
+	color:white;
+	line-height: 0.6rem;
+	text-align: center;
+}
+.xqnr{
+	text-indent: 2em;
+	font-size: 0.34rem;
+}
+.xqnr div{
+	margin-left: -0.63rem;
+}
+.jiao{
+	width:100%;
+	height:0.94rem;
+	/*background: #F4F5F6;*/
+	/*border-top: 0.02rem solid #DDDEDE;*/
+	margin-top:0.1rem;
+}
+/*jiao input{
+	width: 3.7rem;
+	height: 0.7rem;
+	border-radius: 0.3rem;
+}*/
