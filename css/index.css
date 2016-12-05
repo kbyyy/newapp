@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+
+}
+html,body{
+    margin:0;padding:0;
+    width:100%;height:100%;
+}
+header{
+    /*display: -webkit-box;*/
+    /*display:flex;*/
+    background:#D43D3D;
+    width:100%;
+    height:0.71rem;
+    font-size: 0.3rem;
+    flex-direction: row;
+    /*flex-wrap:nowrap;*/
+    /*justify-content:space-around;*/
+    color:#F4CCCC;
+    position: fixed;
+}
+.nav{
+    width:100%;position: absolute;
+    top:40%;
+}
+.n{
+    float:left;
+    width:20%;
+    text-align: center;
+
+}
+.content1{
+    display: flex;
+    width:6.88rem;height: 5.66rem;
+    border-bottom: 0.02rem solid #EDEDED;
+    position: absolute;
+    left:0;right:0;
+    margin:auto;
+}
+.title{
+    padding-top: 0.1rem;
+    width:100%;
+    height:1.33rem;
+    text-align: center;
+    font-size: 0.33rem;
+}
+a{
+    text-decoration: none;
+    /*color:#5C7970;*/
+    width:100%;
+}
+.content1 img{
+    width:6.88rem;
+
+}
+.content2{
+    margin:auto;
+    padding-top:0.24rem;
+    height:2.5rem;
+    width:6.88rem;
+    border-bottom: 0.02rem solid #EDEDED;
+    margin-top:5.66rem;
+
+}
+
+.cl{
+    float: left;
+    width:4.27rem;height: 1.47rem;
+    font-size:0.33rem;
+    font-weight: bold;
+    margin:0;
+}
+.cr{
+    width: 2.26rem;
+    height:1.47rem;
+    float: left;
+    position: absolute;
+    right:0;
+    padding-right: 0.3rem;
+}
+.cr img{
+    width:100%;
+}
+.footer{
+    float: left;
+    height: 0.95rem;
+    width:100%;
+    position: fixed;
+    bottom:0rem;
+    background: #F4F5F6;
+    border-top: #EEEFEF solid 0.02rem;
+
+}
+/*.img{*/
+    /*width:100%;height:100%;*/
+/*}*/
+.content3{
+    margin-top:0rem;
+}
+.footer div{
+	width:25%;
+	text-align: center;
+	float:left;
+	font-size: 0.19rem;
+	line-height: 0.95rem;
+}
+.footer div:hover{
+	color:#F85959;
+}
+
+.header{
+	float:left;
+	/*display: -webkit-box;*/
+    /*display:flex;*/
+    background:#D43D3D;
+    width:100%;
+    height:1.42rem;
+    font-size: 0.3rem;
+    flex-direction: row;
+    /*flex-wrap:nowrap;*/
+    /*justify-content:space-around;*/
+    color:#F4CCCC;
+    position: fixed;
+}
+.img{
+	width:100%;
+	height:2.55rem;
+	float:left;
+	padding-top: 1.42rem;
+}
+.aa{
+	width:100%;
+	heigt:3.7rem;
+	border-bottom: 0.02rem solid #EDEDED;
+	position: absolute;
+	left:0;right:0;
+	margin:auto;
+	
+.aa{
+	margin-top: 3.9rem;
+	height:11.72rem;
+	/*margin-top: 0.1rem;*/
+}
+.bb{
+	padding-top: 0.2rem;
+}	
