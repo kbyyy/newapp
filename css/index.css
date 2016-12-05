@@ -173,6 +173,19 @@ a{
 	border-bottom: 0.01rem solid #D2D2D2;
 	margin-top: 0.5rem;
 }
+.tl{
+	line-height: 0.92rem;
+	font-size: 0.54rem;
+	float:left;
+	padding-left: 0.32rem;
+	
+}
+.tr{
+	line-height: 0.92rem;
+	font-size: 0.54rem;
+	float: right;
+	padding-right: 0.32rem;
+}
 .xqt{
 	padding-left: 0.32rem;
 	padding-right: 0.32rem;
