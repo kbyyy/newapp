@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/font/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="top">
+    <img src="img/top.jpg" alt="" />
+</div>
+<div class="top1">
+
+    <a class="tl iconfont back" href="index.list.html">
+
+
+    </a>
+    <div class="tr iconfont icon-msnui-more">
+
+    </div>
+</div>
+<div class="xqt">
+    习近平：普及宪法知识 增强宪法意识 弘扬宪法精神 推动宪法实施
+    <div class="ly">
+        <div class="lyl">
+            <img src="img/bz.jpg" alt="" />
+            <div class="bt">
+                <span>新华网</span><br />
+                <div class="time">12-04 16:00</div>
+            </div>
+
+        </div>
+        <div class="lyr">
+            &nbsp;&nbsp;关注
+        </div>
+    </div>
+    <br /><br />
+    <div class="xqnr">
+        <div><strong>推进职业教育现代化</strong></div><br />
+        推进职业教育现代化座谈会12月2日在京召开。中共中央政治局常委、国务院总理李克强作出重要批示。批示指出：加快发展现代职业教育，对于发挥我国人力和人才资源巨大优势、提升实体经济综合竞争力具有重要意义。在各方面共同努力下，近年来职业教育改革发展取得了显著成就，应予充分肯定。“十三五”时期，希望围绕贯彻党中央、国务院重大战略部署，落实新发展理念，切实把职业教育摆在更加突出的位置，加快构建现代职业教育体系。坚持面向市场、服务发展、促进就业的办学方向，进一步深化改革创新，强化产教融合、校企合作，积极鼓励和支持社会力量参与，努力建成一批高水平的职业学校和骨干专业，加快培育大批具有专业技能与工匠精神的高素质劳动者和人才，深度融入大众创业、万众创新和“中国制造2025”的实践之中，促进新动能发展和产业升级，带动扩大就业和脱贫攻坚，为推动经济保持中高速增长、迈向中高端水平作出新贡献。中共中央政治局委员、国务院副总理刘延东出席会议并讲话。她强调，要深入贯彻党中央、国务院决策部署，认真落实李克强总理重要批示，加快推进职业教育现代化，使职业教育在决胜全面小康进程中发挥更加突出的作用。
+    </div>
+
+</div>
+<div class="jiao">
+    <!--<input type="text" />-->
+    <img src="img/jiao.jpg" alt="" height="100%"/>
+</div>
+</body>
+<script>
+    var width=document.documentElement.clientWidth;
+    var height=document.documentElement.clientHeight;
+    var scale;
+    function resize(originsize,type){
+        var type=type || "x";
+        if(type=="x"){
+            scale=width/originsize*100;
+        }
+        else if(type=="y"){
+            scale=height/originsize*100;
+        }
+        document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+
+    }
+    resize(750,"x")
+</script>
+</html>
